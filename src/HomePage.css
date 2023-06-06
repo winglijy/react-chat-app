@@ -1,0 +1,145 @@
+/* Import Bootstrap styles */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Custom styles */
+.homepage {
+  padding: 2rem;
+  color: #26083c;
+  background-color: #FFFFE0
+}
+.homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .logo-container {
+    flex-grow: 1;
+  }
+  
+  .logo {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .username-input,
+  .password-input{
+    display: flex;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+
+  .header-right {
+    display: flex;
+    gap: 1rem; /* Add gap between buttons */
+  }
+  .signup-button,
+  .login-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button {
+    background-color: #26083c;
+    color: #fff;
+  }
+  
+  .signup-button:hover {
+    background-color: #e9e91a;
+  }
+  
+  .login-button {
+      background-color: #26083c;
+      color: #fff;
+  }
+  
+  .login-button:hover {
+    background-color: #e9e91a;
+  }
+  
+.product-highlights {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+   
+    font-size: 2rem; /* Increase font size */
+    font-weight: bold; /* Add font weight */
+    text-transform: uppercase; /* Apply uppercase styling */
+    letter-spacing: 2px; /* Add letter spacing */
+    margin-bottom: 2rem;
+  }
+
+.product-illustration {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.powered-by {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.signup{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.access-text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold; 
+}
+
+.product-values {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.product-value {
+  flex: 0 0 300px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.7rem;
+}
+  
+  
+  
+/* Add any additional styles as needed */
+

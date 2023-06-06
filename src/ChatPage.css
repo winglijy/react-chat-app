@@ -1,0 +1,147 @@
+/* Import Bootstrap styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* Deejay's default CSS */
+:root {
+	--color-primary: #26083c;
+	--color-secondary: #e9e91a;
+	--color-white: #ffffff;
+	--color-yellow: #FFFFE0;
+	--color-gray: rgb(244, 244, 244);
+	--color-light_pruple: hwb(246 24% 38%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  background-color:var(--color-yellow);
+
+}
+
+body {
+	font-weight: 400;
+	font-size: 62.5%;
+	line-height: 1.7;
+	font-family: "Poppins", sans-serif;
+	background-color: var(--color-yellow);
+}
+
+h1 {
+	font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+}
+
+.main {
+	color: var(--color-primary);
+	padding: 5rem 6rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.main form {
+	display: flex;
+	padding: 0 5rem;
+}
+
+.main form input,
+.main form button {
+	padding: 1.1rem;
+	border: none;
+}
+
+.main form input {
+	outline: none;
+	background-color: var(--color-primary);
+	font-size: 1.2rem;
+	border-radius: 15px 0px 0px 15px;
+	flex: 1;
+	
+}
+
+.main form input:focus {
+  background-color: white; /* Change background color on focus */
+}
+
+.main form button {
+	flex-basis: 8rem;
+	border-radius: 0px 15px 15px 0px;
+	font-size: 0.8rem;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: var(--color-primary);
+	color: var(--color-white);
+}
+
+.main form button:hover {
+	background-color: var(--color-secondary);
+	color: var(--color-white);
+}
+
+.log ul {
+	padding: 2rem 6rem;
+	font-size: 1.3rem;
+}
+
+.log li {
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	margin: 0.5rem auto;
+}
+
+.log span {
+	font-weight: lighter;
+	padding: 1.3rem 1rem;
+	margin-top: 0.5rem;
+	border-radius: 15px;
+	max-width: 80%;
+	min-width: 10%;
+}
+
+.log li:nth-child(odd) {
+	text-align: right;
+	align-items: flex-end;
+}
+
+/* User Requests */
+.log li:nth-child(odd) span {
+	background: var(--color-white);
+}
+
+/* Ai Responses */
+.log li:nth-child(even) span {
+	background: var(--color-white);
+	color: var(--color-primary);
+}
+
+/* From tablet => mobile screen styles*/
+@media screen and (max-width: 700px) {
+	h1 {
+		text-align: center;
+	}
+
+	.main {
+		padding: 3rem 1rem;
+	}
+
+	.main form {
+		padding: 0;
+	}
+
+	.log ul {
+		padding: 1rem;
+	}
+}
+
+footer {
+	text-align: center;
+	font-size: 0.7rem;
+	margin-top: 10rem;
+  }
