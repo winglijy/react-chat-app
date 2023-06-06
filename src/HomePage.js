@@ -29,7 +29,7 @@ function HomePage() {
             console.log("Username:", username);
             console.log("Password:", password);
 
-            fetch('http://10.0.0.79:3001/login', {
+            fetch('http://localhost:3001/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
