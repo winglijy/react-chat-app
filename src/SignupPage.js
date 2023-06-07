@@ -47,8 +47,8 @@ function SignupPage() {
                             // window.location.href = "/";
                             const navLink = `/chat/${username || ''}`;
                             console.log('navLink:', navLink);
-                            window.location.href = navLink;
-
+                            // window.location.href = navLink;
+                            window.location.assign(navLink);
                         });
                     } else {
                         // Unsuccessful response (status code 401)

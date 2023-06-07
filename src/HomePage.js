@@ -49,7 +49,8 @@ function HomePage() {
                             console.log('Authenticated user:', username);
                             const navLink = `/chat/${username || ''}`;
                             console.log('navLink:', navLink);
-                            window.location.href = navLink;
+                            // window.location.href = navLink;
+                            window.location.assign(navLink);
                         });
                     } else {
                         // Unsuccessful response (status code 401)
