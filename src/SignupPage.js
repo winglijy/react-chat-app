@@ -29,6 +29,10 @@ function SignupPage() {
             // TODO: Implement signup logic using the username, email and password values
             // fetch('https://www-hearmeout-com.onrender.com/signup', {
             fetch('https://server-lyxo.onrender.com/signup', {
+                
+            // To debug and test locally, use this line instead
+            // fetch('http://localhost:3001/signup', {
+                mode: 'no-cors',
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

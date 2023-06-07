@@ -31,6 +31,9 @@ function HomePage() {
 
             // fetch('https://www-hearmeout-com.onrender.com/login', {
             fetch('https://server-lyxo.onrender.com/login', {
+                mode: 'no-cors',
+            // To debug and test locally, use this line instead
+            // fetch('http://localhost:3001/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
