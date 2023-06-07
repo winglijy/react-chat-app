@@ -30,7 +30,7 @@ function HomePage() {
             console.log("Password:", password);
 
             // fetch('https://www-hearmeout-com.onrender.com/login', {
-            fetch('https://server-lyxo:3001/login', {
+            fetch('https://server-lyxo.onrender.com/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
