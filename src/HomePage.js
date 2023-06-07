@@ -29,11 +29,10 @@ function HomePage() {
             console.log("Username:", username);
             console.log("Password:", password);
 
-            // fetch('https://www-hearmeout-com.onrender.com/login', {
             fetch('https://server-lyxo.onrender.com/login', {
-                mode: 'no-cors',
             // To debug and test locally, use this line instead
             // fetch('http://localhost:3001/login', {
+                // mode: 'no-cors',
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
