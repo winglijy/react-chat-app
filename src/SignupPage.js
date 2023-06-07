@@ -27,7 +27,8 @@ function SignupPage() {
             console.log("Password:", password);
 
             // TODO: Implement signup logic using the username, email and password values
-            fetch('https://www-hearmeout-com.onrender.com/signup', {
+            // fetch('https://www-hearmeout-com.onrender.com/signup', {
+            fetch('https://server-lyxo.onrender.com:3001/signup'), {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
