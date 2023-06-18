@@ -32,7 +32,7 @@ function ChatPage() {
 
         const clientMessage = { role: "user", content: userValue }
 
-        fetch('https://server-lyxo.onrender.com/login', {
+        fetch('https://server-lyxo.onrender.com/chat', {
         // To debug and test locally, use this line instead
         // fetch('http://localhost:3001/chat', {
             // mode: 'no-cors',
